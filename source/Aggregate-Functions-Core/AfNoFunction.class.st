@@ -1,11 +1,11 @@
 Class {
-	#name : #AfNoAggregation,
+	#name : #AfNoFunction,
 	#superclass : #AfAggregateFunction,
 	#category : #'Aggregate-Functions-Core'
 }
 
 { #category : #evaluating }
-AfNoAggregation >> value: aCollection [
+AfNoFunction >> value: aCollection [
 	"Answer the receiver's value for the argument aCollection."
 
 	^nil

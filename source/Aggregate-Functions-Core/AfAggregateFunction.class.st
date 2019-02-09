@@ -76,7 +76,7 @@ AfAggregateFunction class >> new [
 
 { #category : #functions }
 AfAggregateFunction class >> none [
-	^ self registry at: AfNoAggregation
+	^ self registry at: AfNoFunction
 ]
 
 { #category : #registry }
